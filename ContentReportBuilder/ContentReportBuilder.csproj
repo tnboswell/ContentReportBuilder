@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.1.7</Version>
+    <Description>Provides a document model that support creation of documents with common document sections and elements for use with builders implemented using existing libraries to generate specific file formats (docx, xlsx, pdf). 
+Styling and layout support implemented with basic support.
+</Description>
+    <Copyright>Troy Boswell</Copyright>
+    <Authors>Troy Nathan Boswell</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageReleaseNotes>Implemented document margins.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Interfaces\" />
+    <Folder Include="Models\MetaData\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

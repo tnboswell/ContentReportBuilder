@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Provides support for common document elements in excel
+Styling and layout support implemented with basic support.</Description>
+    <Authors>Troy Boswell</Authors>
+    <Company>ContentReportBuilder</Company>
+    <Product>ContentReportBuilder</Product>
+    <Copyright>Troy Boswell</Copyright>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <Version>1.1.7.1</Version>
+    <PackageReleaseNotes>Fixed Right Margin. 
+Implemented document margins but they set document printer margins.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ContentReportBuilder" Version="1.1.7" />
+    <PackageReference Include="EPPlus" Version="4.5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

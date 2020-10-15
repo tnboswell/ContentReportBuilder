@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ContentReportBuilder.ITextSharp</RootNamespace>
+    <Description>Provides support for common document elements in pdf
+Styling and layout support implemented with basic support.</Description>
+    <Company>ContentReportBuilder</Company>
+    <Authors>Troy Boswell</Authors>
+    <Copyright>Troy Boswell</Copyright>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <Version>1.1.7</Version>
+    <PackageReleaseNotes>Implemented document margins.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ContentReportBuilder" Version="1.1.7" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.1" />
+    <PackageReference Include="OxyPlot.Core" Version="2.0.0" />
+    <PackageReference Include="OxyPlot.Core.Drawing" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

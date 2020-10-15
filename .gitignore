@@ -1,0 +1,14 @@
+ContentReportBuilder.Test.Console/bin/
+ContentReportBuilder.EPPlus/bin/
+ContentReportBuilder.EPPlus/obj/
+ContentReportBuilder.OpenXml/bin/
+ContentReportBuilder.OpenXml/obj/
+ContentReportBuilder.Test/bin/
+ContentReportBuilder.Test/obj/
+ContentReportBuilder/bin/
+ContentReportBuilder/obj/
+ContentReportBuilder.docX/obj/
+ContentReportBuilder.docX/bin/
+ContentReportBuilder.iTextSharp/obj/
+ContentReportBuilder.iTextSharp/bin/
+.vs/
