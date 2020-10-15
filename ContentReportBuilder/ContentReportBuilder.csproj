@@ -11,6 +11,8 @@ Styling and layout support implemented with basic support.
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <PackageReleaseNotes>Implemented document margins.</PackageReleaseNotes>
+	<RepositoryUrl>https://github.com/tnboswell/ContentReportBuilder</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,5 +31,6 @@ Styling and layout support implemented with basic support.
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+ 
 
 </Project>

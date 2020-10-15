@@ -12,6 +12,9 @@ Styling and layout support implemented with basic support.</Description>
     <Version>1.1.7.1</Version>
     <PackageReleaseNotes>Fixed Right Margin. 
 Implemented document margins but they set document printer margins.</PackageReleaseNotes>
+
+	<RepositoryUrl>https://github.com/tnboswell/ContentReportBuilder</RepositoryUrl> 
+    <RepositoryType>git</RepositoryType> 
   </PropertyGroup>
 
   <ItemGroup>
