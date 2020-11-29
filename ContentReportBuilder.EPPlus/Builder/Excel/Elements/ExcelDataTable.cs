@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace ContentReportBuilder.EPPlus.Builder.Excel.Elements
 {
-    public class ExcelTable : DocumentElementBuilder<ExcelWorksheet>, IDocumentElementBuilder
+    public class ExcelDataTable : DocumentElementBuilder<ExcelWorksheet>, IDocumentElementBuilder
     {
         protected readonly TableDataAdapter _adapter = new TableDataAdapter();
         public override DocumentElementType Type => DocumentElementType.Table;
