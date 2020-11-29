@@ -67,7 +67,7 @@ namespace ContentReportBuilder.EPPlus.Builder.Excel.Elements
                         currentStyle = colStyles[styleIndex];
 
                     CellStyle(documentSection, row, col, currentStyle);
-                    documentSection.Cells[row, col].Value = _adapter.CellValue(elementData.Rows[rowIndex], headers[headerIndex]);
+                    documentSection.Cells[row, col].Value = ToDataType(currentStyle.Cell.DataType, _adapter.CellValue(elementData.Rows[rowIndex], headers[headerIndex]));
                     headerIndex++;
                     col = nextCol(currentStyle, col);
                 }

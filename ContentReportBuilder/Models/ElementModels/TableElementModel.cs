@@ -12,7 +12,7 @@ namespace ContentReportBuilder.Models.ElementModels
     public class TableElementModel : DocumentModelElement
     {
         /// <summary>
-        /// Default Constructor for Chart element model
+        /// Default Constructor for Table element model
         /// </summary>
         /// <param name="data"></param>
         /// <param name="wordStyle"></param>
