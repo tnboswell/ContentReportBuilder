@@ -175,7 +175,7 @@ namespace ContentReportBuilder.Test.Models
                 new TestTableRow{ Id = 2, Title = "Dog", Value = "Mike" },
                 new TestTableRow{ Id = 3, Title = "Bird", Value = "Jacob" },
             } };
-            var element = new TableElementModel(data, null, null);
+            var element = new TableElementModel(data, new Dictionary<int, IExcelElementStyle> { { 1, new ExcelElementStyle { Cell = new CellStyle { DataType = CellDataType.Integer } } } } , null);
             elementList.Add(element);
             docModel.AddDocumentSection(new DocumentModelSection(sectionMetaData, elementList));
             return docModel;

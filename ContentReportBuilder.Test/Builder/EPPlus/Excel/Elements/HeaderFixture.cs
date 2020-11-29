@@ -4,7 +4,6 @@ using ContentReportBuilder.Models.ElementDataModels;
 using ContentReportBuilder.Models.ElementModels;
 using ContentReportBuilder.Models.MetaData;
 using ContentReportBuilder.Test.Models;
-using iTextSharp.text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
